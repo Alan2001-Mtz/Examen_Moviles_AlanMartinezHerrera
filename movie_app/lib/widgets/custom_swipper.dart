@@ -23,8 +23,6 @@ class CustomSwipper extends StatelessWidget {
         }, 
         itemCount: movies.length,
         itemWidth: 300,
-        //autoplay: true,
-        //pagination: SwiperPagination(),
         control: SwiperControl(),
         layout: SwiperLayout.STACK,
         ),

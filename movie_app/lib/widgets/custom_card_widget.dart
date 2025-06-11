@@ -13,7 +13,7 @@ class CustomCardImage extends StatelessWidget {
         placeholder: AssetImage(
           'assets/images/loading.gif',
         ),
-        image: NetworkImage(posterPath), // imagen desde la web
+        image: NetworkImage(posterPath), // imagen desde la web TMDB
         fit: BoxFit.cover,
         imageErrorBuilder:
             (context, error, stackTrace) => Image.asset(
